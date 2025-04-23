@@ -1,62 +1,67 @@
-# DDDS - Acceptance Test Report
+# 📄 DDDS – Acceptance Test Report
 
 🛠️ **Project**: Driver Drowsiness Detection System (DDDS)  
-📄 **Report**: Acceptance Test Report  
-👨‍💻 **Prepared by**: Khaled Alrefai  
-📅 **Date**: April 14, 2025  
 🎓 **Course**: Computer Engineering – Graduation Project  
-👩‍🏫 **Advisor**: Prof. Emel Koç
+👨‍💻 **Prepared by**: Khaled Alrefai  
+👩‍🏫 **Advisor**: Prof. Emel Koç  
+📅 **Submitted**: April 14, 2025
 
 ---
 
-## 🧪 Overview
+## 📘 What This Repo Contains
 
-This repository includes the formal Acceptance Test Report for the Driver Drowsiness Detection System (DDDS) project. It contains:
+This repository includes the full Acceptance Test Report and accompanying modular test breakdowns for the DDDS project.
 
-- Functional and non-functional validation  
-- Real test outcomes across four major stages  
-- Documentation aligned with IEEE 829 test standards  
-- Integration-ready results for the final graduation phase
-
----
-
-## 📄 Report Files
-
-| File | Description |
-|------|-------------|
-| `DDDS_Acceptance_Tests_Report_Khaled_Alrefai.pdf` | Final report (PDF) |
+It complements the core [DDDS implementation repo](https://github.com/Kaldx5/Driver-Drowsiness-Detection-System) by focusing on:
+- System verification  
+- Modular testing methodology  
+- IEEE 829-style documentation
 
 ---
 
-## ✅ Test Highlights
+## 📂 Folder Structure
 
-- **Total Tests Performed**: 14  
-- **Pass**: 11  
-- **Partial/Pending**: 2  
-- **Fail**: 1  
-- **Success Rate**: `78.6%`
-
----
-
-## 🧩 Key Features Validated
-
-- Camera integration and frame preprocessing  
-- CNN model classification for eye states  
-- Buzzer/LED alert logic  
-- Offline operation confirmed  
-- Real-time logging and modular simulation
+| Folder | Contents |
+|--------|----------|
+| `/report/` | Final test report in PDF format |
+| `/test-results/` | Stage-by-stage Markdown summaries (Capture, Processing, Alerting) |
 
 ---
 
-## 🗂️ Related Repository
+## ✅ Test Overview
 
-🔗 Core Project Code: [Driver-Drowsiness-Detection-System](https://github.com/Kaldx5/Driver-Drowsiness-Detection-System)
+| Metric       | Value      |
+|--------------|------------|
+| Total Tests  | 14         |
+| ✅ Pass      | 11         |
+| ⚠️ Partial   | 1          |
+| ⏳ Pending   | 1          |
+| ❌ Fail      | 1          |
+| **Success Rate** | **78.6%** |
+
+> These results reflect real-time validation from live testing and simulated integration steps.
 
 ---
 
-## 📢 Contact
+## 🔍 Key Validated Features
 
-👤 Khaled Alrefai
-📧 Email: khaled@eng-alrefai.com
-🔗 LinkedIn: linkedin.com/in/khaled-alrefai-668079273/
+- 📷 Real-time frame capture using OpenCV  
+- 🧠 Eye state detection with trained CNN (Keras `.h5`)  
+- 🚨 Drowsiness alert after sustained eye closure  
+- 🚫 Blink suppression logic (tolerant of short blinks)  
+- ✅ Offline-ready (no cloud/API dependencies)
 
+---
+
+## 🔗 Related Repository
+
+For source code, ML model, and system diagrams:  
+👉 [Driver-Drowsiness-Detection-System](https://github.com/Kaldx5/Driver-Drowsiness-Detection-System)
+
+---
+
+## 🧩 Final Notes
+
+This report reflects not just functionality, but **the engineering mindset** behind every tested component — planning, experimentation, debugging, and adaptation. For more context, see the related [Graduation Project Booklet](#) _(coming soon)_.
+
+---
